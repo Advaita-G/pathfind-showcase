@@ -1,0 +1,15 @@
+<!-- Pathfind favicon — the standalone icon centred on a dark green tile so the ivory
+     P/path and orange arrow stay legible on both light and dark browser chrome.
+     The symbol is scaled rather than redrawn, so the geometry is the master's. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <rect width="48" height="48" rx="10" fill="#12261e"/>
+  <g transform="translate(24 24) scale(0.48) translate(-72 -63)">
+    <path d="M 40,90 V 45 C 40,25 75,25 75,45 C 75,60 55,65 60,80 L 85,95"
+          fill="none"
+          stroke="#f4f1e6"
+          stroke-width="12"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+    <polygon points="85,102 110,95 95,70" fill="#d87635"/>
+  </g>
+</svg>

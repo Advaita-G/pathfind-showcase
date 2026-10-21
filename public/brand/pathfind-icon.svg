@@ -1,0 +1,13 @@
+<!-- Pathfind icon — the master symbol alone (P/path + orange arrow), no wordmark.
+     Same path and polygon geometry as the horizontal lockup; the viewBox is cropped
+     to a square around the symbol's ink (which spans x 34–110, y 24–102 once the
+     12-unit round stroke is included) so it centres cleanly at favicon sizes. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="27 18 90 90" width="90" height="90" role="img">
+  <path d="M 40,90 V 45 C 40,25 75,25 75,45 C 75,60 55,65 60,80 L 85,95"
+        fill="none"
+        stroke="#173e2d"
+        stroke-width="12"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+  <polygon points="85,102 110,95 95,70" fill="#d87635"/>
+</svg>

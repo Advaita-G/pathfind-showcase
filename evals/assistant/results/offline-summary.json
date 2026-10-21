@@ -1,0 +1,26 @@
+{
+  "cases": 7,
+  "passed": 7,
+  "passRate": 1,
+  "eligibilityCasesEvaluated": 0,
+  "eligibilityCheckFailures": null,
+  "hallucinationCasesEvaluated": 0,
+  "hallucinationCheckFailures": null,
+  "eligibilityViolationsDetected": 0,
+  "groundingViolationsDetected": 0,
+  "metricLimit": "Category check failures are signals, not a complete semantic hallucination/eligibility audit.",
+  "apiRequests": 0,
+  "apiStatuses": [],
+  "models": [],
+  "apiUsageUnknown": false,
+  "promptTokens": 0,
+  "outputAndThoughtTokens": 0,
+  "latencyMs": {
+    "p50": 5.279916,
+    "p95": 9.977541000000002
+  },
+  "approximateCostUsd": 0,
+  "paidEquivalentUsd": 0,
+  "billingNote": "User confirmed the key is on the Gemini free tier; actual account billing was not independently inspected.",
+  "failures": []
+}

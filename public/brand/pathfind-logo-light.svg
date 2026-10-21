@@ -1,0 +1,19 @@
+<!-- Pathfind — horizontal lockup, light background variant.
+     Master geometry: do not edit the path/polygon/text geometry. Only the stroke
+     and text fills differ between this file and pathfind-logo-dark.svg. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120" role="img">
+  <path d="M 40,90 V 45 C 40,25 75,25 75,45 C 75,60 55,65 60,80 L 85,95"
+        fill="none"
+        stroke="#173e2d"
+        stroke-width="12"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+  <polygon points="85,102 110,95 95,70" fill="#d87635"/>
+  <text x="130"
+        y="82"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="52"
+        font-weight="bold"
+        fill="#173e2d"
+        letter-spacing="-0.5">Pathfind</text>
+</svg>

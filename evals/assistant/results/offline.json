@@ -1,0 +1,407 @@
+{
+  "results": {
+    "results": [
+      {
+        "testCase": {
+          "description": "greeting: routing",
+          "vars": {
+            "caseId": "greeting"
+          },
+          "metadata": {
+            "category": "routing"
+          }
+        },
+        "response": {
+          "output": "{\"status\":200,\"text\":\"Hi! Ask me for programs (\\\"free robotics competitions for 10th grade\\\"), about colleges, or what to work on next based on your Pathfind profile.\",\"ids\":[],\"errors\":[],\"done\":true,\"calls\":[],\"rpcCalls\":[],\"latencyMs\":2.9073330000000013}",
+          "tokenUsage": {
+            "prompt": 0,
+            "completion": 0,
+            "total": 0
+          },
+          "metadata": {
+            "status": 200,
+            "text": "Hi! Ask me for programs (\"free robotics competitions for 10th grade\"), about colleges, or what to work on next based on your Pathfind profile.",
+            "ids": [],
+            "errors": [],
+            "done": true,
+            "calls": [],
+            "rpcCalls": [],
+            "latencyMs": 2.9073330000000013,
+            "costBasis": "unknown; billing tier/rates not configured"
+          }
+        },
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "Deterministic checks passed"
+        },
+        "success": true
+      },
+      {
+        "testCase": {
+          "description": "unclear: routing",
+          "vars": {
+            "caseId": "unclear"
+          },
+          "metadata": {
+            "category": "routing"
+          }
+        },
+        "response": {
+          "output": "{\"status\":200,\"text\":\"I'm not sure what you meant by that. Try asking me about colleges, opportunities, or your Pathfind plan, like \\\"free coding programs for 10th grade\\\" or \\\"what should I work on this semester?\\\"\",\"ids\":[],\"errors\":[],\"done\":true,\"calls\":[],\"rpcCalls\":[],\"latencyMs\":2.797333000000002}",
+          "tokenUsage": {
+            "prompt": 0,
+            "completion": 0,
+            "total": 0
+          },
+          "metadata": {
+            "status": 200,
+            "text": "I'm not sure what you meant by that. Try asking me about colleges, opportunities, or your Pathfind plan, like \"free coding programs for 10th grade\" or \"what should I work on this semester?\"",
+            "ids": [],
+            "errors": [],
+            "done": true,
+            "calls": [],
+            "rpcCalls": [],
+            "latencyMs": 2.797333000000002,
+            "costBasis": "unknown; billing tier/rates not configured"
+          }
+        },
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "Deterministic checks passed"
+        },
+        "success": true
+      },
+      {
+        "testCase": {
+          "description": "quota-failure: tool-failure",
+          "vars": {
+            "caseId": "quota-failure"
+          },
+          "metadata": {
+            "category": "tool-failure"
+          }
+        },
+        "response": {
+          "output": "{\"status\":503,\"text\":\"{\\\"error\\\":\\\"The assistant is unavailable right now. Try again shortly.\\\"}\",\"ids\":[],\"errors\":[],\"done\":false,\"calls\":[],\"rpcCalls\":[{\"name\":\"ai_consume_quota\",\"args\":{\"p_keys\":[\"anon:32a8349f4ae0372624498a3d7ba6a6241fa665cf5716e80d2ec753286c15c297:minute\",\"anon:32a8349f4ae0372624498a3d7ba6a6241fa665cf5716e80d2ec753286c15c297:day\",\"global:day\"],\"p_windows\":[\"minute\",\"day\",\"day\"],\"p_limits\":[5,8,500]}}],\"latencyMs\":5.279916}",
+          "tokenUsage": {
+            "prompt": 0,
+            "completion": 0,
+            "total": 0
+          },
+          "metadata": {
+            "status": 503,
+            "text": "{\"error\":\"The assistant is unavailable right now. Try again shortly.\"}",
+            "ids": [],
+            "errors": [],
+            "done": false,
+            "calls": [],
+            "rpcCalls": [
+              {
+                "name": "ai_consume_quota",
+                "args": {
+                  "p_keys": [
+                    "anon:32a8349f4ae0372624498a3d7ba6a6241fa665cf5716e80d2ec753286c15c297:minute",
+                    "anon:32a8349f4ae0372624498a3d7ba6a6241fa665cf5716e80d2ec753286c15c297:day",
+                    "global:day"
+                  ],
+                  "p_windows": [
+                    "minute",
+                    "day",
+                    "day"
+                  ],
+                  "p_limits": [
+                    5,
+                    8,
+                    500
+                  ]
+                }
+              }
+            ],
+            "latencyMs": 5.279916,
+            "costBasis": "unknown; billing tier/rates not configured"
+          }
+        },
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "Deterministic checks passed"
+        },
+        "success": true
+      },
+      {
+        "testCase": {
+          "description": "catalog-failure: tool-failure",
+          "vars": {
+            "caseId": "catalog-failure"
+          },
+          "metadata": {
+            "category": "tool-failure"
+          }
+        },
+        "response": {
+          "output": "{\"status\":200,\"text\":\"The assistant is unavailable right now. Try again shortly.\",\"ids\":[],\"errors\":[],\"done\":true,\"calls\":[],\"rpcCalls\":[{\"name\":\"ai_consume_quota\",\"args\":{\"p_keys\":[\"anon:32a8349f4ae0372624498a3d7ba6a6241fa665cf5716e80d2ec753286c15c297:minute\",\"anon:32a8349f4ae0372624498a3d7ba6a6241fa665cf5716e80d2ec753286c15c297:day\",\"global:day\"],\"p_windows\":[\"minute\",\"day\",\"day\"],\"p_limits\":[5,8,500]}},{\"name\":\"ai_acquire_slot\",\"args\":{\"p_identifier\":\"anon:32a8349f4ae0372624498a3d7ba6a6241fa665cf5716e80d2ec753286c15c297\"}},{\"name\":\"search_opportunities\",\"args\":{\"p_terms\":null,\"p_interests\":[\"engineering\"],\"p_grade\":null,\"p_types\":[\"Competition\"],\"p_free_only\":false,\"p_closing_within_days\":null,\"p_limit\":6}}],\"latencyMs\":6.597082999999998}",
+          "tokenUsage": {
+            "prompt": 0,
+            "completion": 0,
+            "total": 0
+          },
+          "metadata": {
+            "status": 200,
+            "text": "The assistant is unavailable right now. Try again shortly.",
+            "ids": [],
+            "errors": [],
+            "done": true,
+            "calls": [],
+            "rpcCalls": [
+              {
+                "name": "ai_consume_quota",
+                "args": {
+                  "p_keys": [
+                    "anon:32a8349f4ae0372624498a3d7ba6a6241fa665cf5716e80d2ec753286c15c297:minute",
+                    "anon:32a8349f4ae0372624498a3d7ba6a6241fa665cf5716e80d2ec753286c15c297:day",
+                    "global:day"
+                  ],
+                  "p_windows": [
+                    "minute",
+                    "day",
+                    "day"
+                  ],
+                  "p_limits": [
+                    5,
+                    8,
+                    500
+                  ]
+                }
+              },
+              {
+                "name": "ai_acquire_slot",
+                "args": {
+                  "p_identifier": "anon:32a8349f4ae0372624498a3d7ba6a6241fa665cf5716e80d2ec753286c15c297"
+                }
+              },
+              {
+                "name": "search_opportunities",
+                "args": {
+                  "p_terms": null,
+                  "p_interests": [
+                    "engineering"
+                  ],
+                  "p_grade": null,
+                  "p_types": [
+                    "Competition"
+                  ],
+                  "p_free_only": false,
+                  "p_closing_within_days": null,
+                  "p_limit": 6
+                }
+              }
+            ],
+            "latencyMs": 6.597082999999998,
+            "costBasis": "unknown; billing tier/rates not configured"
+          }
+        },
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "Deterministic checks passed"
+        },
+        "success": true
+      },
+      {
+        "testCase": {
+          "description": "provider-unavailable: tool-failure",
+          "vars": {
+            "caseId": "provider-unavailable"
+          },
+          "metadata": {
+            "category": "tool-failure"
+          }
+        },
+        "response": {
+          "output": "{\"status\":200,\"text\":\"I couldn't write a summary just now, but these results come straight from Pathfind's catalog.\",\"ids\":[\"robotics-challenge\"],\"errors\":[],\"done\":true,\"calls\":[],\"rpcCalls\":[{\"name\":\"ai_consume_quota\",\"args\":{\"p_keys\":[\"anon:32a8349f4ae0372624498a3d7ba6a6241fa665cf5716e80d2ec753286c15c297:minute\",\"anon:32a8349f4ae0372624498a3d7ba6a6241fa665cf5716e80d2ec753286c15c297:day\",\"global:day\"],\"p_windows\":[\"minute\",\"day\",\"day\"],\"p_limits\":[5,8,500]}},{\"name\":\"ai_acquire_slot\",\"args\":{\"p_identifier\":\"anon:32a8349f4ae0372624498a3d7ba6a6241fa665cf5716e80d2ec753286c15c297\"}}],\"latencyMs\":9.977541000000002}",
+          "tokenUsage": {
+            "prompt": 0,
+            "completion": 0,
+            "total": 0
+          },
+          "metadata": {
+            "status": 200,
+            "text": "I couldn't write a summary just now, but these results come straight from Pathfind's catalog.",
+            "ids": [
+              "robotics-challenge"
+            ],
+            "errors": [],
+            "done": true,
+            "calls": [],
+            "rpcCalls": [
+              {
+                "name": "ai_consume_quota",
+                "args": {
+                  "p_keys": [
+                    "anon:32a8349f4ae0372624498a3d7ba6a6241fa665cf5716e80d2ec753286c15c297:minute",
+                    "anon:32a8349f4ae0372624498a3d7ba6a6241fa665cf5716e80d2ec753286c15c297:day",
+                    "global:day"
+                  ],
+                  "p_windows": [
+                    "minute",
+                    "day",
+                    "day"
+                  ],
+                  "p_limits": [
+                    5,
+                    8,
+                    500
+                  ]
+                }
+              },
+              {
+                "name": "ai_acquire_slot",
+                "args": {
+                  "p_identifier": "anon:32a8349f4ae0372624498a3d7ba6a6241fa665cf5716e80d2ec753286c15c297"
+                }
+              }
+            ],
+            "latencyMs": 9.977541000000002,
+            "costBasis": "unknown; billing tier/rates not configured"
+          }
+        },
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "Deterministic checks passed"
+        },
+        "success": true
+      },
+      {
+        "testCase": {
+          "description": "provider-interrupted: tool-failure",
+          "vars": {
+            "caseId": "provider-interrupted"
+          },
+          "metadata": {
+            "category": "tool-failure"
+          }
+        },
+        "response": {
+          "output": "{\"status\":200,\"text\":\"Partial transport fixture.\\n\\nThis answer was interrupted. Please try again.\",\"ids\":[\"robotics-challenge\"],\"errors\":[],\"done\":true,\"calls\":[],\"rpcCalls\":[{\"name\":\"ai_consume_quota\",\"args\":{\"p_keys\":[\"anon:32a8349f4ae0372624498a3d7ba6a6241fa665cf5716e80d2ec753286c15c297:minute\",\"anon:32a8349f4ae0372624498a3d7ba6a6241fa665cf5716e80d2ec753286c15c297:day\",\"global:day\"],\"p_windows\":[\"minute\",\"day\",\"day\"],\"p_limits\":[5,8,500]}},{\"name\":\"ai_acquire_slot\",\"args\":{\"p_identifier\":\"anon:32a8349f4ae0372624498a3d7ba6a6241fa665cf5716e80d2ec753286c15c297\"}}],\"latencyMs\":8.720167}",
+          "tokenUsage": {
+            "prompt": 0,
+            "completion": 0,
+            "total": 0
+          },
+          "metadata": {
+            "status": 200,
+            "text": "Partial transport fixture.\n\nThis answer was interrupted. Please try again.",
+            "ids": [
+              "robotics-challenge"
+            ],
+            "errors": [],
+            "done": true,
+            "calls": [],
+            "rpcCalls": [
+              {
+                "name": "ai_consume_quota",
+                "args": {
+                  "p_keys": [
+                    "anon:32a8349f4ae0372624498a3d7ba6a6241fa665cf5716e80d2ec753286c15c297:minute",
+                    "anon:32a8349f4ae0372624498a3d7ba6a6241fa665cf5716e80d2ec753286c15c297:day",
+                    "global:day"
+                  ],
+                  "p_windows": [
+                    "minute",
+                    "day",
+                    "day"
+                  ],
+                  "p_limits": [
+                    5,
+                    8,
+                    500
+                  ]
+                }
+              },
+              {
+                "name": "ai_acquire_slot",
+                "args": {
+                  "p_identifier": "anon:32a8349f4ae0372624498a3d7ba6a6241fa665cf5716e80d2ec753286c15c297"
+                }
+              }
+            ],
+            "latencyMs": 8.720167,
+            "costBasis": "unknown; billing tier/rates not configured"
+          }
+        },
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "Deterministic checks passed"
+        },
+        "success": true
+      },
+      {
+        "testCase": {
+          "description": "busy: tool-failure",
+          "vars": {
+            "caseId": "busy"
+          },
+          "metadata": {
+            "category": "tool-failure"
+          }
+        },
+        "response": {
+          "output": "{\"status\":429,\"text\":\"{\\\"error\\\":\\\"busy\\\",\\\"message\\\":\\\"Still working on your last question. Wait for it to finish.\\\"}\",\"ids\":[],\"errors\":[],\"done\":false,\"calls\":[],\"rpcCalls\":[{\"name\":\"ai_consume_quota\",\"args\":{\"p_keys\":[\"anon:32a8349f4ae0372624498a3d7ba6a6241fa665cf5716e80d2ec753286c15c297:minute\",\"anon:32a8349f4ae0372624498a3d7ba6a6241fa665cf5716e80d2ec753286c15c297:day\",\"global:day\"],\"p_windows\":[\"minute\",\"day\",\"day\"],\"p_limits\":[5,8,500]}},{\"name\":\"ai_acquire_slot\",\"args\":{\"p_identifier\":\"anon:32a8349f4ae0372624498a3d7ba6a6241fa665cf5716e80d2ec753286c15c297\"}}],\"latencyMs\":5.141875000000002}",
+          "tokenUsage": {
+            "prompt": 0,
+            "completion": 0,
+            "total": 0
+          },
+          "metadata": {
+            "status": 429,
+            "text": "{\"error\":\"busy\",\"message\":\"Still working on your last question. Wait for it to finish.\"}",
+            "ids": [],
+            "errors": [],
+            "done": false,
+            "calls": [],
+            "rpcCalls": [
+              {
+                "name": "ai_consume_quota",
+                "args": {
+                  "p_keys": [
+                    "anon:32a8349f4ae0372624498a3d7ba6a6241fa665cf5716e80d2ec753286c15c297:minute",
+                    "anon:32a8349f4ae0372624498a3d7ba6a6241fa665cf5716e80d2ec753286c15c297:day",
+                    "global:day"
+                  ],
+                  "p_windows": [
+                    "minute",
+                    "day",
+                    "day"
+                  ],
+                  "p_limits": [
+                    5,
+                    8,
+                    500
+                  ]
+                }
+              },
+              {
+                "name": "ai_acquire_slot",
+                "args": {
+                  "p_identifier": "anon:32a8349f4ae0372624498a3d7ba6a6241fa665cf5716e80d2ec753286c15c297"
+                }
+              }
+            ],
+            "latencyMs": 5.141875000000002,
+            "costBasis": "unknown; billing tier/rates not configured"
+          }
+        },
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "Deterministic checks passed"
+        },
+        "success": true
+      }
+    ]
+  }
+}

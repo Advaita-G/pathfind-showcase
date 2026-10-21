@@ -1,0 +1,2029 @@
+{
+  "source": "Curated feed — records gathered from official program pages",
+  "retrieved": "2026-10-04",
+  "generatedBy": "scripts/sync-opportunities.mjs",
+  "records": [
+    {
+      "id": "cspan-studentcam",
+      "title": "StudentCam",
+      "org": "C-SPAN",
+      "type": "Competition",
+      "interests": [
+        "arts",
+        "law"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "C-SPAN's national video documentary contest. You make a short film about an issue that affects your community or the country.",
+      "link": "https://www.studentcam.org/",
+      "free": false,
+      "location": "Remote",
+      "deadline": "2027-01-20",
+      "deadlineConfirmed": true,
+      "sourceName": "Official program website",
+      "tags": [
+        "Film",
+        "Government",
+        "Journalism"
+      ],
+      "participation": {
+        "participationType": "mixed",
+        "canJoinIndividually": true,
+        "requiresTeam": false,
+        "requiresClubOrSchool": false,
+        "howToJoin": "Enter alone or with a team of 2 or 3 students."
+      },
+      "verified": true,
+      "lastChecked": "2026-10-04"
+    },
+    {
+      "id": "house-congressional-art-competition",
+      "title": "Congressional Art Competition",
+      "org": "U.S. House of Representatives",
+      "type": "Competition",
+      "interests": [
+        "arts"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "Visual art contest run in each congressional district every spring. You enter through your own member of Congress's office.",
+      "link": "https://www.house.gov/educators-and-students/congressional-art-competition",
+      "free": false,
+      "location": "In-Person",
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Arts",
+        "Government"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-04",
+      "sourceUrl": "https://www.house.gov/educators-and-students/congressional-art-competition"
+    },
+    {
+      "id": "epa-presidents-environmental-youth-award",
+      "title": "President's Environmental Youth Award (PEYA)",
+      "org": "U.S. Environmental Protection Agency",
+      "type": "Competition",
+      "interests": [
+        "environmental",
+        "service"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "National EPA award for a student-led environmental project you have already done in your community. Grades 6-12 compete in one category.",
+      "link": "https://www.epa.gov/education/presidents-environmental-youth-award",
+      "free": false,
+      "location": "Remote",
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Environmental Science",
+        "Community Service"
+      ],
+      "participation": {
+        "participationType": "mixed",
+        "canJoinIndividually": true,
+        "requiresTeam": false,
+        "requiresClubOrSchool": "unknown",
+        "howToJoin": "Apply alone or as a group of students."
+      },
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "sourceUrl": "https://www.epa.gov/education/presidents-environmental-youth-award"
+    },
+    {
+      "id": "nps-youth-conservation-corps",
+      "title": "Youth Conservation Corps (YCC)",
+      "org": "National Park Service",
+      "type": "Internship",
+      "interests": [
+        "environmental",
+        "service"
+      ],
+      "minGrade": 10,
+      "maxGrade": 12,
+      "description": "Paid summer job on a crew in a national park, doing needed work on public lands. Open to U.S. permanent residents ages 15 to 18.",
+      "link": "https://www.nps.gov/subjects/youthprograms/ycc.htm",
+      "free": true,
+      "location": "In-Person",
+      "minAge": 15,
+      "maxAge": 18,
+      "paid": true,
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Environmental Science",
+        "Volunteer"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "sourceUrl": "https://www.nps.gov/subjects/youthprograms/ycc.htm"
+    },
+    {
+      "id": "poetry-out-loud",
+      "title": "Poetry Out Loud",
+      "org": "National Endowment for the Arts & Poetry Foundation",
+      "type": "Competition",
+      "interests": [
+        "writing",
+        "arts"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "National poetry recitation contest. You memorize and perform poems, starting at your school and moving up to state and national finals. Your school must be registered with the state coordinator.",
+      "link": "https://www.poetryoutloud.org/",
+      "free": false,
+      "location": "In-Person",
+      "sourceUrl": "https://poetryoutloud.org/faq/",
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Public Speaking",
+        "Writing"
+      ],
+      "participation": {
+        "participationType": "school",
+        "canJoinIndividually": false,
+        "requiresTeam": false,
+        "requiresClubOrSchool": true,
+        "howToJoin": "Compete through a school or organization registered with your state coordinator."
+      },
+      "verified": true,
+      "lastChecked": "2026-10-04"
+    },
+    {
+      "id": "pumac",
+      "title": "Princeton University Mathematics Competition (PUMaC)",
+      "org": "Princeton University",
+      "type": "Competition",
+      "interests": [
+        "math"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "Student-run math contest at Princeton. Teams come from high schools or well-defined regions.",
+      "link": "https://pumac.princeton.edu/",
+      "free": false,
+      "location": "In-Person",
+      "city": "Princeton",
+      "state": "NJ",
+      "sourceUrl": "https://pumac.princeton.edu/registration-info",
+      "sourceName": "Official program website",
+      "tags": [
+        "Math"
+      ],
+      "participation": {
+        "participationType": "team",
+        "canJoinIndividually": false,
+        "requiresTeam": true,
+        "requiresClubOrSchool": "unknown",
+        "howToJoin": "Compete on a team from your high school or region."
+      },
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "deadline": "2026-10-28",
+      "deadlineConfirmed": true,
+      "country": "United States"
+    },
+    {
+      "id": "mit-mathroots",
+      "title": "√mathroots",
+      "org": "MIT Department of Mathematics",
+      "type": "Program",
+      "interests": [
+        "math"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "Free residential summer math program at MIT for current high school students. There is no tuition or housing cost.",
+      "link": "https://mathroots.mit.edu/",
+      "free": true,
+      "location": "In-Person",
+      "city": "Cambridge",
+      "state": "MA",
+      "sourceUrl": "https://mathroots.mit.edu/apply/",
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Math",
+        "Summer Program"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "country": "United States"
+    },
+    {
+      "id": "hcssim",
+      "title": "Hampshire College Summer Studies in Mathematics (HCSSiM)",
+      "org": "HCSSiM",
+      "type": "Program",
+      "interests": [
+        "math"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "Intensive residential summer math program. The 2026 session cost $7,208.",
+      "link": "https://hcssim.org/",
+      "free": false,
+      "location": "In-Person",
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Math",
+        "Summer Program"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "sourceUrl": "https://hcssim.org/"
+    },
+    {
+      "id": "mathily",
+      "title": "MathILy",
+      "org": "MathILy",
+      "type": "Program",
+      "interests": [
+        "math"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "Intensive residential summer math program for strong math students. Tuition is charged.",
+      "link": "https://www.mathily.org/",
+      "free": false,
+      "location": "In-Person",
+      "sourceName": "Official program website",
+      "tags": [
+        "Math",
+        "Summer Program"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "city": "Bryn Mawr",
+      "state": "PA",
+      "country": "United States",
+      "sourceUrl": "https://www.mathily.org/app.html"
+    },
+    {
+      "id": "wharton-hs-data-science-competition",
+      "title": "Wharton High School Data Science Competition",
+      "org": "Wharton Global Youth Program, University of Pennsylvania",
+      "type": "Competition",
+      "interests": [
+        "math",
+        "cs"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "Free sports analytics contest from Wharton. You use real data to answer a sports question.",
+      "link": "https://globalyouth.wharton.upenn.edu/competitions/data-science-competition/",
+      "free": true,
+      "location": "Remote",
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Sports",
+        "Data Science",
+        "Statistics"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "sourceUrl": "https://globalyouth.wharton.upenn.edu/competitions/data-science/"
+    },
+    {
+      "id": "wharton-moneyball-academy",
+      "title": "Wharton Moneyball Academy",
+      "org": "Wharton Global Youth Program, University of Pennsylvania",
+      "type": "Program",
+      "interests": [
+        "math",
+        "finance"
+      ],
+      "minGrade": 11,
+      "maxGrade": 12,
+      "description": "Summer program at Wharton where rising juniors and seniors study sports analytics. Tuition is charged.",
+      "link": "https://globalyouth.wharton.upenn.edu/programs/moneyball-academy/",
+      "free": false,
+      "location": "In-Person",
+      "city": "Philadelphia",
+      "state": "PA",
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Sports",
+        "Data Science",
+        "Statistics",
+        "Summer Program"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "sourceUrl": "https://globalyouth.wharton.upenn.edu/application-information/",
+      "country": "United States"
+    },
+    {
+      "id": "ucsc-scholar-immersion-program",
+      "title": "UCSC Scholar Immersion Program (SIP)",
+      "org": "University of California, Santa Cruz",
+      "type": "Research",
+      "interests": [
+        "biology",
+        "cs",
+        "engineering",
+        "physics"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "Summer research with UC Santa Cruz mentors on open-ended projects. The SIP 2027 application fee is $68, and fee waivers are available.",
+      "link": "https://sip.ucsc.edu/",
+      "free": false,
+      "location": "In-Person",
+      "city": "Santa Cruz",
+      "state": "CA",
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Research",
+        "STEM",
+        "Mentorship"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "sourceUrl": "https://sip.ucsc.edu/applying-to-sip/",
+      "country": "United States"
+    },
+    {
+      "id": "nyas-junior-academy",
+      "title": "The Junior Academy",
+      "org": "The New York Academy of Sciences",
+      "type": "Program",
+      "interests": [
+        "biology",
+        "engineering",
+        "environmental",
+        "cs"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "Free online program where you join an international team and work with STEM experts on real-world challenges.",
+      "link": "https://www.nyas.org/programs/the-junior-academy/",
+      "free": true,
+      "location": "Remote",
+      "minAge": 13,
+      "maxAge": 17,
+      "sourceName": "Official program website",
+      "tags": [
+        "STEM",
+        "Research",
+        "Mentorship"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "recurring": true,
+      "sourceUrl": "https://www.nyas.org/learning/high-school-research-programs/the-junior-academy/"
+    },
+    {
+      "id": "bennington-young-writers-awards",
+      "title": "Bennington Young Writers Awards",
+      "org": "Bennington College",
+      "type": "Competition",
+      "interests": [
+        "writing"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "Free writing contest for poetry, fiction, and nonfiction, now part of the Bennington Young Creators Awards.",
+      "link": "https://www.bennington.edu/events/young-writers-awards",
+      "free": true,
+      "location": "Remote",
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Writing"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "sourceUrl": "https://www.bennington.edu/news-and-features/bennington-college-now-accepting-submissions-high-school-students-young-creators",
+      "deadline": "2026-11-01",
+      "deadlineConfirmed": true
+    },
+    {
+      "id": "nsli-y",
+      "title": "National Security Language Initiative for Youth (NSLI-Y)",
+      "org": "U.S. Department of State",
+      "type": "Program",
+      "interests": [
+        "writing",
+        "law"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "Merit-based scholarship for high school students to study a critical language, either abroad or online.",
+      "link": "https://www.nsliforyouth.org/",
+      "free": false,
+      "location": "In-Person",
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "International Relations",
+        "Scholarship"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "deadline": "2026-11-12",
+      "deadlineConfirmed": true,
+      "sourceUrl": "https://www.nsliforyouth.org/how-to-apply/dates-and-deadlines/"
+    },
+    {
+      "id": "cbyx-high-school",
+      "title": "Congress-Bundestag Youth Exchange (CBYX)",
+      "org": "U.S. Department of State & German Bundestag",
+      "type": "Program",
+      "interests": [
+        "law",
+        "writing"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "Scholarship to live with a host family in Germany and attend a German high school. No previous German is required.",
+      "link": "https://www.usagermanyscholarship.org/",
+      "free": false,
+      "location": "In-Person",
+      "country": "Germany",
+      "sourceName": "Official program website",
+      "tags": [
+        "International Relations",
+        "Scholarship"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "deadline": "2026-11-03",
+      "deadlineConfirmed": true,
+      "sourceUrl": "https://usagermanyscholarship.org/2027-28-cbyx-high-school-application-now-open/"
+    },
+    {
+      "id": "solar-car-challenge",
+      "title": "Solar Car Challenge",
+      "org": "Solar Car Challenge Foundation",
+      "type": "Competition",
+      "interests": [
+        "engineering",
+        "environmental"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "Teams of high school students learn to build a roadworthy solar car, then take part in the Challenge.",
+      "link": "https://www.solarcarchallenge.org/challenge/",
+      "free": false,
+      "location": "In-Person",
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Engineering",
+        "Sustainability"
+      ],
+      "participation": {
+        "participationType": "team",
+        "canJoinIndividually": false,
+        "requiresTeam": true,
+        "requiresClubOrSchool": "unknown",
+        "howToJoin": "Build and race the car as a high school team."
+      },
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "deadline": "2027-01-31",
+      "deadlineConfirmed": true,
+      "sourceUrl": "https://www.solarcarchallenge.org/challenge/calendar2027.shtml"
+    },
+    {
+      "id": "nasa-hunch",
+      "title": "NASA HUNCH",
+      "org": "NASA",
+      "type": "Program",
+      "interests": [
+        "engineering"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "Classes at participating schools design and build real products for NASA. You take part through your school.",
+      "link": "https://www.nasahunch.com/",
+      "free": false,
+      "location": "In-Person",
+      "sourceName": "Official program website",
+      "tags": [
+        "Engineering",
+        "Design",
+        "STEM"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-04",
+      "sourceUrl": "https://www.nasahunch.com/"
+    },
+    {
+      "id": "vfw-voice-of-democracy",
+      "title": "VFW Voice of Democracy",
+      "org": "Veterans of Foreign Wars",
+      "type": "Competition",
+      "interests": [
+        "writing",
+        "debate"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "Audio essay contest on a patriotic theme. You record your essay and enter through a local VFW post, with scholarships at each level.",
+      "link": "https://www.vfw.org/community/youth-and-education/youth-scholarships",
+      "free": false,
+      "location": "Remote",
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Public Speaking",
+        "Scholarship"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "deadline": "2026-10-31",
+      "deadlineConfirmed": true,
+      "sourceUrl": "https://www.vfw.org/community/youth-and-education/youth-scholarships"
+    },
+    {
+      "id": "optimist-essay-contest",
+      "title": "Optimist International Essay Contest",
+      "org": "Optimist International",
+      "type": "Competition",
+      "interests": [
+        "writing"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "Essay contest run by local Optimist Clubs. Club winners move up to district contests, which award college scholarships.",
+      "link": "https://www.optimist.org/member/scholarships3.cfm",
+      "free": false,
+      "location": "In-Person",
+      "maxAge": 18,
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Writing",
+        "Scholarship"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-04",
+      "sourceUrl": "https://www.optimist.org/essay"
+    },
+    {
+      "id": "optimist-oratorical-contest",
+      "title": "Optimist International Oratorical Contest",
+      "org": "Optimist International",
+      "type": "Competition",
+      "interests": [
+        "debate",
+        "writing"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "Speech contest run by local Optimist Clubs, with college scholarships at the district level.",
+      "link": "https://www.optimist.org/member/scholarships4.cfm",
+      "free": false,
+      "location": "In-Person",
+      "maxAge": 18,
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Public Speaking",
+        "Scholarship"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-04",
+      "sourceUrl": "https://www.optimist.org/oratorical"
+    },
+    {
+      "id": "habitat-youth-programs",
+      "title": "Habitat for Humanity Youth Programs",
+      "org": "Habitat for Humanity",
+      "type": "Program",
+      "interests": [
+        "service"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "Volunteer with Habitat for Humanity through its youth programs and help build homes near you.",
+      "link": "https://www.habitat.org/volunteer/near-you/youth-programs",
+      "free": false,
+      "location": "In-Person",
+      "sourceName": "Official program website",
+      "tags": [
+        "Volunteer",
+        "Community Service"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-04",
+      "sourceUrl": "https://www.habitat.org/volunteer/near-you/youth-programs"
+    },
+    {
+      "id": "civil-air-patrol-cadets",
+      "title": "Civil Air Patrol Cadet Program",
+      "org": "Civil Air Patrol (U.S. Air Force Auxiliary)",
+      "type": "Program",
+      "interests": [
+        "engineering",
+        "service"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "Join a local Civil Air Patrol squadron to learn aviation and leadership. Annual dues are $25 to $50.",
+      "link": "https://www.gocivilairpatrol.com/programs/cadets",
+      "free": false,
+      "location": "In-Person",
+      "minAge": 12,
+      "maxAge": 18,
+      "sourceName": "Official program website",
+      "tags": [
+        "Leadership",
+        "Engineering"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-04",
+      "sourceUrl": "https://www.gocivilairpatrol.com/programs/cadets/cpofficer/great-start/great-start-introduction"
+    },
+    {
+      "id": "nyc-syep",
+      "title": "Summer Youth Employment Program (SYEP)",
+      "org": "NYC Department of Youth & Community Development",
+      "type": "Internship",
+      "interests": [
+        "service",
+        "entrepreneurship"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "Paid summer work and career exploration for New York City youth ages 14 to 24.",
+      "link": "https://www.nyc.gov/site/dycd/services/jobs-internships/summer-youth-employment-program-syep.page",
+      "free": true,
+      "location": "In-Person",
+      "minAge": 14,
+      "city": "New York",
+      "state": "NY",
+      "paid": true,
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Internship"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "sourceUrl": "https://www.nyc.gov/site/dycd/services/jobs-internships/summer-youth-employment-program-syep.page"
+    },
+    {
+      "id": "one-summer-chicago",
+      "title": "One Summer Chicago",
+      "org": "City of Chicago",
+      "type": "Internship",
+      "interests": [
+        "service",
+        "entrepreneurship"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "Chicago's summer jobs, internships, and training for youth ages 14 to 24, with city agencies, companies, and community groups.",
+      "link": "https://www.onesummerchicago.org/",
+      "free": true,
+      "location": "In-Person",
+      "minAge": 14,
+      "city": "Chicago",
+      "state": "IL",
+      "paid": true,
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Internship"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "sourceUrl": "https://www.chicagoyouthworks.org/faq/"
+    },
+    {
+      "id": "aeop-internships",
+      "title": "AEOP Internships and Fellowships",
+      "org": "Army Educational Outreach Program",
+      "type": "Research",
+      "interests": [
+        "engineering",
+        "biology",
+        "chemistry",
+        "physics"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "Paid research internships in Army research labs and partner university labs. Positions are competitive.",
+      "link": "https://www.usaeop.com/program/reap/",
+      "free": true,
+      "location": "In-Person",
+      "paid": true,
+      "sourceName": "Official program website",
+      "tags": [
+        "Research",
+        "Internship",
+        "STEM"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "sourceUrl": "https://aeopinternships-fellowships.org/application-process/"
+    },
+    {
+      "id": "aeop-gems",
+      "title": "Gains in the Education of Mathematics and Science (GEMS)",
+      "org": "Army Educational Outreach Program",
+      "type": "Program",
+      "interests": [
+        "engineering",
+        "biology",
+        "chemistry"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "Summer STEM camp at Army research sites. There is no fee, and students get a small stipend.",
+      "link": "https://www.usaeop.com/program/gems/",
+      "free": true,
+      "location": "In-Person",
+      "stipend": true,
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "STEM",
+        "Summer Program"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "sourceUrl": "https://usaeop.com/program/gems/"
+    },
+    {
+      "id": "nist-ship",
+      "title": "NIST Summer High School Intern Program (SHIP)",
+      "org": "National Institute of Standards and Technology",
+      "type": "Research",
+      "interests": [
+        "physics",
+        "chemistry",
+        "engineering",
+        "cs"
+      ],
+      "minGrade": 11,
+      "maxGrade": 12,
+      "description": "Seven-week unpaid research internship with NIST scientists. You must be a U.S. citizen with at least a 3.0 unweighted GPA.",
+      "link": "https://www.nist.gov/careers/student-opportunities/summer-high-school-intern-program",
+      "free": false,
+      "location": "In-Person",
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Research",
+        "Internship",
+        "STEM"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "sourceUrl": "https://www.nist.gov/ship/ship-application-and-selection"
+    },
+    {
+      "id": "stockholm-junior-water-prize",
+      "title": "Stockholm Junior Water Prize (U.S.)",
+      "org": "Water Environment Federation",
+      "type": "Competition",
+      "interests": [
+        "environmental",
+        "biology",
+        "chemistry",
+        "engineering"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "Science fair-style contest for water research projects. State winners go on to the national competition.",
+      "link": "https://www.wef.org/resources/for-the-public/SJWP/",
+      "free": false,
+      "location": "In-Person",
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Environmental Science",
+        "Research"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "sourceUrl": "https://www.wef.org/community/sjwp-eligibility-and-entry-requirements/"
+    },
+    {
+      "id": "ja-company-program",
+      "title": "JA Company Program",
+      "org": "Junior Achievement USA",
+      "type": "Program",
+      "interests": [
+        "entrepreneurship",
+        "finance"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "Start and run a real student company with classmates through Junior Achievement.",
+      "link": "https://jausa.ja.org/programs/ja-company-program",
+      "free": false,
+      "location": "In-Person",
+      "sourceName": "Official program website",
+      "tags": [
+        "Entrepreneurship",
+        "Business"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-03",
+      "sourceUrl": "https://jausa.ja.org/programs/ja-company-program"
+    },
+    {
+      "id": "ja-titan",
+      "title": "JA Titan",
+      "org": "Junior Achievement USA",
+      "type": "Program",
+      "interests": [
+        "finance",
+        "entrepreneurship"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "Junior Achievement business simulation where you make decisions to run a company.",
+      "link": "https://jausa.ja.org/programs/ja-titan",
+      "free": false,
+      "location": "In-Person",
+      "sourceName": "Official program website",
+      "tags": [
+        "Business",
+        "Economics"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-03",
+      "sourceUrl": "https://jausa.ja.org/programs/ja-titan"
+    },
+    {
+      "id": "jalc-essentially-ellington",
+      "title": "Essentially Ellington",
+      "org": "Jazz at Lincoln Center",
+      "type": "Competition",
+      "interests": [
+        "arts"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "Free Jazz at Lincoln Center program for high school jazz bands. Your school band takes part as a group.",
+      "link": "https://www.jazz.org/ee/",
+      "free": true,
+      "location": "In-Person",
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Music"
+      ],
+      "participation": {
+        "participationType": "team",
+        "canJoinIndividually": false,
+        "requiresTeam": true,
+        "requiresClubOrSchool": "unknown",
+        "howToJoin": "Take part as a high school jazz band."
+      },
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "sourceUrl": "https://jazz.org/education/school-programs/essentially-ellington/",
+      "deadline": "2027-01-08",
+      "deadlineConfirmed": true,
+      "city": "New York",
+      "state": "NY",
+      "country": "United States"
+    },
+    {
+      "id": "grammy-camp",
+      "title": "Grammy Camp",
+      "org": "Grammy Museum",
+      "type": "Program",
+      "interests": [
+        "arts"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "Summer music industry camp in cities such as Nashville, Miami, and New York. Tuition runs $2,500 to $3,600 by location.",
+      "link": "https://www.grammymuseum.org/education/grammy-camp/",
+      "free": false,
+      "location": "In-Person",
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Music",
+        "Summer Program"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "sourceUrl": "https://grammymuseum.org/education/grammy-camp/"
+    },
+    {
+      "id": "yea-young-entrepreneurs-academy",
+      "title": "Young Entrepreneurs Academy (YEA!)",
+      "org": "Young Entrepreneurs Academy",
+      "type": "Program",
+      "interests": [
+        "entrepreneurship"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "Class run by local YEA! chapters where you build a real business. Top students compete for college scholarships and start-up money.",
+      "link": "https://yeausa.org/",
+      "free": false,
+      "location": "In-Person",
+      "sourceName": "Official program website",
+      "tags": [
+        "Entrepreneurship",
+        "Business"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-04",
+      "sourceUrl": "https://yeausa.org/"
+    },
+    {
+      "id": "polyphony-lit",
+      "title": "Polyphony Lit",
+      "org": "Polyphony Lit",
+      "type": "Program",
+      "interests": [
+        "writing"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "Online literary magazine for high school writers. Submit your writing, or join the student editorial staff to review other teens' work.",
+      "link": "https://www.polyphonylit.org/",
+      "free": false,
+      "location": "Remote",
+      "sourceName": "Official program website",
+      "tags": [
+        "Writing",
+        "Journalism"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "deadline": "2026-11-30",
+      "deadlineConfirmed": true,
+      "sourceUrl": "https://www.polyphonylit.org/submission-guidelines"
+    },
+    {
+      "id": "girl-scout-gold-award",
+      "title": "Girl Scout Gold Award",
+      "org": "Girl Scouts of the USA",
+      "type": "Program",
+      "interests": [
+        "service"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "The top Girl Scout award for a lasting community project you lead. You must be a registered Senior or Ambassador Girl Scout.",
+      "link": "https://www.girlscouts.org/en/members/for-girl-scouts/badges-journeys-awards/highest-awards/gold-award.html",
+      "free": false,
+      "location": "In-Person",
+      "sourceName": "Official program website",
+      "tags": [
+        "Leadership",
+        "Community Service"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-04",
+      "sourceUrl": "https://www.girlscouts.org/en/members/for-girl-scouts/badges-journeys-awards/highest-awards/gold-award.html"
+    },
+    {
+      "id": "elks-most-valuable-student",
+      "title": "Elks Most Valuable Student Scholarship",
+      "org": "Elks National Foundation",
+      "type": "Competition",
+      "interests": [
+        "service"
+      ],
+      "minGrade": 12,
+      "maxGrade": 12,
+      "description": "College scholarship for U.S. citizen seniors, from $1,000 to $7,500 a year. The top 20 scholars receive $30,000.",
+      "link": "https://www.elks.org/scholars/scholarships/mvs.cfm",
+      "free": false,
+      "location": "Remote",
+      "deadline": "2026-11-12",
+      "deadlineConfirmed": true,
+      "sourceName": "Official program website",
+      "tags": [
+        "Scholarship",
+        "Leadership"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-04"
+    },
+    {
+      "id": "cooke-college-scholarship",
+      "title": "Cooke College Scholarship Program",
+      "org": "Jack Kent Cooke Foundation",
+      "type": "Competition",
+      "interests": [
+        "service"
+      ],
+      "minGrade": 12,
+      "maxGrade": 12,
+      "description": "Large college scholarship for high-achieving seniors with financial need. Each award covers much of tuition, living costs, books, and fees.",
+      "link": "https://www.jkcf.org/our-scholarships/college-scholarship-program/",
+      "free": false,
+      "location": "Remote",
+      "deadline": "2026-11-11",
+      "deadlineConfirmed": true,
+      "sourceName": "Official program website",
+      "tags": [
+        "Scholarship"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-04"
+    },
+    {
+      "id": "ron-brown-scholar",
+      "title": "Ron Brown Scholar Program",
+      "org": "Ron Brown Scholar Fund",
+      "type": "Competition",
+      "interests": [
+        "service"
+      ],
+      "minGrade": 12,
+      "maxGrade": 12,
+      "description": "$40,000 college scholarships for African American seniors with strong academics, leadership, and community service. The 2027 application is open.",
+      "link": "https://www.ronbrown.org/",
+      "free": false,
+      "location": "Remote",
+      "sourceName": "Official program website",
+      "tags": [
+        "Scholarship",
+        "Leadership"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "sourceUrl": "https://ronbrown.org/ron-brown-scholarship/",
+      "deadline": "2026-12-01",
+      "deadlineConfirmed": true
+    },
+    {
+      "id": "questbridge-national-college-match",
+      "title": "QuestBridge National College Match",
+      "org": "QuestBridge",
+      "type": "Competition",
+      "interests": [
+        "service"
+      ],
+      "minGrade": 12,
+      "maxGrade": 12,
+      "description": "College admission and scholarship process that matches high-achieving seniors from low-income backgrounds with full four-year scholarships at 55 partner colleges.",
+      "link": "https://www.questbridge.org/high-school-students/national-college-match",
+      "free": false,
+      "location": "Remote",
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Scholarship"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "sourceUrl": "https://www.questbridge.org/apply-to-college/programs/national-college-match/apply/dates-and-deadlines"
+    },
+    {
+      "id": "philadelphia-pyntern",
+      "title": "PYNtern Program",
+      "org": "Philadelphia Youth Network",
+      "type": "Internship",
+      "interests": [
+        "service",
+        "entrepreneurship"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "Paid work-based learning in Philadelphia. Rising 9th and 10th graders start with career exploration, and older teens move into internships.",
+      "link": "https://www.pyninc.org/workready",
+      "free": true,
+      "location": "In-Person",
+      "minAge": 14,
+      "maxAge": 18,
+      "city": "Philadelphia",
+      "state": "PA",
+      "paid": true,
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Internship"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "sourceUrl": "https://www.pyninc.org/pyntern"
+    },
+    {
+      "id": "whitney-youth-insights",
+      "title": "Whitney Youth Insights",
+      "org": "Whitney Museum of American Art",
+      "type": "Program",
+      "interests": [
+        "arts"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "After-school and summer program at the Whitney where New York City teens work with contemporary artists.",
+      "link": "https://whitney.org/education/teens",
+      "free": false,
+      "location": "In-Person",
+      "city": "New York",
+      "state": "NY",
+      "sourceName": "Official program website",
+      "tags": [
+        "Arts"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "sourceUrl": "https://whitney.org/education/teens/youth-insights",
+      "recurring": true,
+      "country": "United States"
+    },
+    {
+      "id": "sifma-investwrite",
+      "title": "InvestWrite",
+      "org": "SIFMA Foundation",
+      "type": "Competition",
+      "interests": [
+        "finance",
+        "writing"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "National essay contest about investing. It is open only to students in The Stock Market Game, so your teacher must run it.",
+      "link": "https://www.investwrite.org/",
+      "free": false,
+      "location": "Remote",
+      "sourceName": "Official program website",
+      "tags": [
+        "Finance",
+        "Writing"
+      ],
+      "participation": {
+        "participationType": "school",
+        "canJoinIndividually": false,
+        "requiresTeam": "unknown",
+        "requiresClubOrSchool": true,
+        "howToJoin": "Your Stock Market Game teacher submits the best essays."
+      },
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "recurring": true,
+      "sourceUrl": "https://sifmafoundation.org/investwrite/advisors"
+    },
+    {
+      "id": "cee-national-personal-finance-challenge",
+      "title": "National Personal Finance Challenge",
+      "org": "Council for Economic Education",
+      "type": "Competition",
+      "interests": [
+        "finance"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "Nationwide contest on earning, spending, saving, investing, and credit. Teams with a coach compete at state and national levels.",
+      "link": "https://www.councilforeconed.org/national-personal-finance-challenge/",
+      "free": false,
+      "location": "In-Person",
+      "sourceName": "Official program website",
+      "tags": [
+        "Finance",
+        "Economics"
+      ],
+      "participation": {
+        "participationType": "team",
+        "canJoinIndividually": false,
+        "requiresTeam": true,
+        "requiresClubOrSchool": "unknown",
+        "howToJoin": "Compete on a team with a coach."
+      },
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "recurring": true,
+      "sourceUrl": "https://www.councilforeconed.org/programs/for-students/national-personal-finance-challenge/"
+    },
+    {
+      "id": "unmc-sharp",
+      "title": "Summer High School Advanced Research Program (SHARP)",
+      "org": "University of Nebraska Medical Center",
+      "type": "Research",
+      "interests": [
+        "biology"
+      ],
+      "minGrade": 10,
+      "maxGrade": 11,
+      "description": "Summer research program at the University of Nebraska Medical Center for high school sophomores and juniors. For U.S. citizens and permanent residents, with a 3.0 GPA, a completed science course, and two recommendation letters considered.",
+      "link": "https://www.unmc.edu/student-success/pathway-programs/sharp/index.html",
+      "free": false,
+      "location": "In-Person",
+      "deadline": "2027-02-01",
+      "deadlineConfirmed": true,
+      "applicationOpenDate": "2026-11-01",
+      "minAge": 16,
+      "city": "Omaha",
+      "state": "NE",
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Research",
+        "Biology",
+        "Medicine"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-04"
+    },
+    {
+      "id": "scu-summer-engineering-seminar",
+      "title": "Summer Engineering Seminar (SES)",
+      "org": "Santa Clara University School of Engineering",
+      "type": "Program",
+      "interests": [
+        "engineering"
+      ],
+      "minGrade": 10,
+      "maxGrade": 11,
+      "description": "Free five-day residential engineering seminar at Santa Clara University for high school sophomores and juniors, with priority for sophomores. Housing and meals cost nothing, and applicants are judged on math and science grades and financial need. The 2027 application opens in December.",
+      "link": "https://www.scu.edu/engineering/beyond-the-classroom/outreach/summer-engineering-seminar-ses/",
+      "free": true,
+      "location": "Bay Area",
+      "city": "Santa Clara",
+      "state": "CA",
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Engineering",
+        "Summer Program"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "country": "United States",
+      "sourceUrl": "https://www.scu.edu/engineering/beyond-the-classroom/outreach/summer-engineering-seminar-ses/"
+    },
+    {
+      "id": "cooper-union-summer-stem",
+      "title": "Cooper Union Summer STEM",
+      "org": "The Cooper Union",
+      "type": "Program",
+      "interests": [
+        "engineering",
+        "cs"
+      ],
+      "minGrade": 9,
+      "maxGrade": 11,
+      "description": "Three- or six-week college-level engineering and computer science classes at Cooper Union in New York City. Financial aid is available, with priority for NYC residents. Applications for 2027 open December 11, 2026.",
+      "link": "https://cooper.edu/engineering/stem/summer",
+      "free": false,
+      "location": "In-Person",
+      "applicationOpenDate": "2026-12-11",
+      "city": "New York",
+      "state": "NY",
+      "financialAid": true,
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Engineering",
+        "Computer Science",
+        "Summer Program"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "country": "United States",
+      "sourceUrl": "https://cooper.edu/engineering/stem/summer"
+    },
+    {
+      "id": "hiller-aviation-flight-teen-volunteers",
+      "title": "Flight Teen Volunteers",
+      "org": "Hiller Aviation Museum",
+      "type": "Program",
+      "interests": [
+        "service",
+        "engineering"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "Teens ages 14 to 18 run aviation and STEM activities for museum visitors in San Carlos, including the Invention Lab and virtual reality experiences. Applications are taken on an ongoing basis.",
+      "link": "https://www.hiller.org/join-and-support/volunteer/",
+      "free": false,
+      "location": "Bay Area",
+      "minAge": 14,
+      "maxAge": 18,
+      "city": "San Carlos",
+      "state": "CA",
+      "sourceName": "Official program website",
+      "tags": [
+        "Volunteer",
+        "STEM"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "country": "United States",
+      "sourceUrl": "https://www.hiller.org/join-and-support/volunteer/"
+    },
+    {
+      "id": "cedars-sinai-teen-volunteers",
+      "title": "Cedars-Sinai Teen Volunteer Program",
+      "org": "Cedars-Sinai",
+      "type": "Program",
+      "interests": [
+        "biology",
+        "service"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "Session-based hospital volunteering in Los Angeles where teens work alongside patients and staff. You must be 14 to 18 and complete a full session. The volunteer jacket costs $30.",
+      "link": "https://www.cedars-sinai.org/volunteer-services/high-school-students.html",
+      "free": false,
+      "location": "In-Person",
+      "deadline": "2026-11-23",
+      "deadlineConfirmed": true,
+      "minAge": 14,
+      "maxAge": 18,
+      "city": "Los Angeles",
+      "state": "CA",
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Volunteer",
+        "Health",
+        "Medicine"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-04"
+    },
+    {
+      "id": "unc-tar-heel-business-academy",
+      "title": "Tar Heel Business Academy",
+      "org": "UNC Kenan-Flagler Business School",
+      "type": "Program",
+      "interests": [
+        "entrepreneurship",
+        "finance"
+      ],
+      "minGrade": 10,
+      "maxGrade": 11,
+      "description": "One-week business courses taught by Kenan-Flagler professors in Charlotte and Chapel Hill, including Business Essentials, Business of Sports, and Entrepreneurship. The fee is $2,995 and a need-based scholarship can be requested. Apply by the November 16 priority deadline.",
+      "link": "https://www.kenan-flagler.unc.edu/pre-college-business-academy/",
+      "free": false,
+      "location": "In-Person",
+      "deadline": "2026-11-16",
+      "deadlineConfirmed": true,
+      "state": "NC",
+      "financialAid": true,
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Business",
+        "Entrepreneurship",
+        "Summer Program"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "sourceUrl": "https://www.kenan-flagler.unc.edu/pre-college-business-academy/"
+    },
+    {
+      "id": "northeastern-young-scholars-program",
+      "title": "Northeastern Young Scholars Program (YSP)",
+      "org": "Northeastern University Center for STEM Education",
+      "type": "Research",
+      "interests": [
+        "engineering",
+        "biology"
+      ],
+      "minGrade": 11,
+      "maxGrade": 11,
+      "description": "Free six-week research placement in Northeastern labs in engineering, science, and health sciences for Massachusetts juniors. Students must be U.S. citizens or permanent residents and live within commuting distance of Boston.",
+      "link": "https://stem.northeastern.edu/summer/ysp/",
+      "free": true,
+      "location": "In-Person",
+      "deadline": "2027-03-01",
+      "deadlineConfirmed": true,
+      "applicationOpenDate": "2026-12-14",
+      "city": "Boston",
+      "state": "MA",
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Research",
+        "Engineering",
+        "STEM"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-04"
+    },
+    {
+      "id": "tcu-high-school-investor-challenge",
+      "title": "High School Investor Challenge",
+      "org": "TCU Neeley School of Business",
+      "type": "Program",
+      "interests": [
+        "finance"
+      ],
+      "minGrade": 11,
+      "maxGrade": 11,
+      "description": "Pre-college finance program where students manage a $100,000 virtual portfolio and learn securities analysis and portfolio management. The 2027 application has not opened yet.",
+      "link": "https://neeley.tcu.edu/degrees-programs/pre-college-programs/high-school-investor-challenge.php",
+      "free": false,
+      "location": "In-Person",
+      "city": "Fort Worth",
+      "state": "TX",
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Finance",
+        "Business",
+        "Summer Program"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "country": "United States",
+      "sourceUrl": "https://neeley.tcu.edu/degrees-programs/pre-college-programs/high-school-investor-challenge.php"
+    },
+    {
+      "id": "cmu-cs-scholars",
+      "title": "CMU CS Scholars",
+      "org": "Carnegie Mellon University Pre-College Programs",
+      "type": "Program",
+      "interests": [
+        "cs"
+      ],
+      "minGrade": 10,
+      "maxGrade": 10,
+      "description": "Fully funded four-week residential computer science program at Carnegie Mellon for 10th graders. Open to U.S. citizens and permanent residents, and documentation of financial need is required to apply.",
+      "link": "https://www.cmu.edu/pre-college/academic-programs/computer-science-scholars.html",
+      "free": true,
+      "location": "In-Person",
+      "deadline": "2027-02-01",
+      "deadlineConfirmed": true,
+      "minAge": 16,
+      "city": "Pittsburgh",
+      "state": "PA",
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Computer Science",
+        "Summer Program"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-04"
+    },
+    {
+      "id": "cmu-ai-scholars",
+      "title": "CMU AI Scholars",
+      "org": "Carnegie Mellon University Pre-College Programs",
+      "type": "Program",
+      "interests": [
+        "ai",
+        "cs"
+      ],
+      "minGrade": 11,
+      "maxGrade": 11,
+      "description": "Fully funded four-week residential AI program at Carnegie Mellon for 11th graders, with research projects and faculty lectures. Open to U.S. citizens and permanent residents, and documentation of financial need is required to apply.",
+      "link": "https://www.cmu.edu/pre-college/academic-programs/ai_scholars.html",
+      "free": true,
+      "location": "In-Person",
+      "deadline": "2027-02-01",
+      "deadlineConfirmed": true,
+      "minAge": 16,
+      "city": "Pittsburgh",
+      "state": "PA",
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "AI",
+        "Computer Science",
+        "Summer Program"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-04"
+    },
+    {
+      "id": "founding-forward-spirit-of-america",
+      "title": "Spirit of America Youth Leadership",
+      "org": "Founding Forward",
+      "type": "Program",
+      "interests": [
+        "law",
+        "entrepreneurship"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "Four-day residential civics and leadership program at Valley Forge with a free enterprise team challenge. The fee is $850, and many students attend free thanks to donor support. Sessions run from October 2026 through July 2027.",
+      "link": "https://foundingforward.org/students/spirit-of-america/",
+      "free": false,
+      "location": "In-Person",
+      "city": "Valley Forge",
+      "state": "PA",
+      "financialAid": true,
+      "sourceName": "Official program website",
+      "tags": [
+        "Leadership",
+        "Government",
+        "Summer Program"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "country": "United States",
+      "sourceUrl": "https://foundingforward.org/students/spirit-of-america/"
+    },
+    {
+      "id": "nasa-techrise-challenge",
+      "title": "NASA TechRise Student Challenge",
+      "org": "NASA and Future Engineers",
+      "type": "Competition",
+      "interests": [
+        "engineering",
+        "physics",
+        "cs"
+      ],
+      "minGrade": 8,
+      "maxGrade": 12,
+      "description": "School teams design an experiment that NASA flies on a high-altitude test vehicle in summer 2027. A teacher or school employee submits the team's proposal, and 60 winning teams are chosen.",
+      "link": "https://futureengineers.org/",
+      "free": false,
+      "location": "In-Person",
+      "deadline": "2026-11-02",
+      "deadlineConfirmed": true,
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Engineering",
+        "Competition",
+        "STEM"
+      ],
+      "participation": {
+        "participationType": "school",
+        "canJoinIndividually": false,
+        "requiresTeam": true,
+        "requiresClubOrSchool": true,
+        "howToJoin": "A teacher or school employee forms the team and submits the proposal."
+      },
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "sourceUrl": "https://www.futureengineers.org/nasatechrise"
+    },
+    {
+      "id": "nasa-dream-with-us-hs-engineering-challenge",
+      "title": "Dream with Us High School Engineering Challenge",
+      "org": "NASA Aeronautics",
+      "type": "Competition",
+      "interests": [
+        "engineering"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "Teams of 3 to 7 students design a new cargo aircraft and write a proposal for it. Registration closes December 8, 2026, and the engineering notebook is due January 25, 2027.",
+      "link": "https://www.nasa.gov/directorates/armd/dream-with-us-high-school-design-challenge/",
+      "free": false,
+      "location": "Remote",
+      "deadline": "2026-12-08",
+      "deadlineConfirmed": true,
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Engineering",
+        "Competition",
+        "STEM"
+      ],
+      "participation": {
+        "participationType": "team",
+        "canJoinIndividually": false,
+        "requiresTeam": true,
+        "requiresClubOrSchool": "unknown"
+      },
+      "verified": true,
+      "lastChecked": "2026-10-04"
+    },
+    {
+      "id": "stevens-hs-entrepreneurship-ai-video-pitch",
+      "title": "High School Entrepreneurship and AI Video Pitch Competition",
+      "org": "Stevens Institute of Technology School of Business",
+      "type": "Competition",
+      "interests": [
+        "entrepreneurship",
+        "ai"
+      ],
+      "minGrade": 9,
+      "maxGrade": 11,
+      "description": "Pitch a business idea in a short video. Entries are individual, the registration fee is $25, and prizes are $500, $250, and $100. Register by January 8, 2027 and submit the video by January 15.",
+      "link": "https://www.stevens.edu/school-business/high-school-entrepreneurship-and-artificial-intelligence-ai-video-pitch",
+      "free": false,
+      "location": "Remote",
+      "deadline": "2027-01-08",
+      "deadlineConfirmed": true,
+      "applicationOpenDate": "2026-10-01",
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Entrepreneurship",
+        "AI",
+        "Competition"
+      ],
+      "participation": {
+        "participationType": "individual",
+        "canJoinIndividually": true,
+        "requiresTeam": false,
+        "requiresClubOrSchool": false
+      },
+      "verified": true,
+      "lastChecked": "2026-10-04"
+    },
+    {
+      "id": "young-investors-society-stock-pitch",
+      "title": "Global Stock Pitch Competition",
+      "org": "Young Investors Society",
+      "type": "Competition",
+      "interests": [
+        "finance"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "Students pick a public company and build their best stock idea, alone or in teams of two, then pitch it. The fee is $30 per person, registration opens December 15, 2026, and finalists attend the Global Youth Investment Summit.",
+      "link": "https://yis.org/programs/stock-pitch-competition/",
+      "free": false,
+      "location": "In-Person",
+      "deadline": "2027-02-19",
+      "deadlineConfirmed": true,
+      "applicationOpenDate": "2026-12-15",
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Finance",
+        "Competition",
+        "Economics"
+      ],
+      "participation": {
+        "participationType": "mixed",
+        "canJoinIndividually": true,
+        "requiresTeam": false,
+        "requiresClubOrSchool": false
+      },
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "sourceUrl": "https://yis.org/programs/stock-pitch-competition/"
+    },
+    {
+      "id": "magee-womens-hs-summer-internship",
+      "title": "Magee-Womens HS Summer Research Internship",
+      "org": "Magee-Womens Research Institute & Foundation",
+      "type": "Research",
+      "interests": [
+        "biology"
+      ],
+      "minGrade": 10,
+      "maxGrade": 11,
+      "description": "Six-week biomedical research internship in Pittsburgh where each student runs their own project with an investigator. Students must be over 16, and a $1,800 stipend is available to students from households that qualify. Applications for 2027 open in late fall 2026.",
+      "link": "https://mageewomens.org/for-researchers/education/high-school-summer-internship-program",
+      "free": false,
+      "location": "In-Person",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Research",
+        "Biology",
+        "Medicine"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "country": "United States",
+      "sourceUrl": "https://mageewomens.org/for-researchers/education/high-school-summer-internship-program"
+    },
+    {
+      "id": "van-andel-institute-hs-graduate-research-program",
+      "title": "Van Andel Institute HS Graduate Research Program",
+      "org": "Van Andel Institute",
+      "type": "Research",
+      "interests": [
+        "biology"
+      ],
+      "minGrade": 12,
+      "maxGrade": 12,
+      "description": "Eight-week paid lab research program for graduating high school seniors, working full time with scientists on cell biology, genetics, neuroscience, and more. It pays $15 an hour and has 10 spots. U.S. citizens and permanent residents only. Applications run January to mid-March 2027.",
+      "link": "https://www.vai.org/graduate-school/hs-program/",
+      "free": false,
+      "location": "In-Person",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "paid": true,
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Research",
+        "Biology",
+        "Internship"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "country": "United States",
+      "sourceUrl": "https://www.vai.org/graduate-school/hs-program/"
+    },
+    {
+      "id": "fred-hutch-pathways-research-explorers",
+      "title": "Pathways Research Explorers (High School Explorers Program)",
+      "org": "Fred Hutchinson Cancer Center",
+      "type": "Program",
+      "interests": [
+        "biology"
+      ],
+      "minGrade": 9,
+      "maxGrade": 10,
+      "description": "Two-week introduction to cancer research at Fred Hutch in Seattle, with hands-on lab activities. It costs nothing to attend, students who finish get a $500 award, and applicants must live in the Seattle area. Applications for 2027 open next January.",
+      "link": "https://www.fredhutch.org/en/education-training/high-school-students/high-school-explorers-program.html",
+      "free": true,
+      "location": "In-Person",
+      "city": "Seattle",
+      "state": "WA",
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Research",
+        "Biology",
+        "Medicine"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "country": "United States",
+      "sourceUrl": "https://www.fredhutch.org/en/education-training/high-school-students/high-school-explorers-program.html"
+    },
+    {
+      "id": "math-science-nucleus-environmental-interns",
+      "title": "Summer Environmental Interns",
+      "org": "Math Science Nucleus",
+      "type": "Program",
+      "interests": [
+        "environmental",
+        "biology"
+      ],
+      "minGrade": 10,
+      "maxGrade": 12,
+      "description": "Five-day wetland science service internship at Tule Ponds in Fremont, with water sampling, plant surveys, and microbe studies. It is free, and 10 to 15 students are chosen. Applications for 2027 are due April 15.",
+      "link": "https://www.msnucleus.org/events/lam/environ_intern2026.html",
+      "free": true,
+      "location": "Bay Area",
+      "deadline": "2027-04-15",
+      "deadlineConfirmed": true,
+      "applicationOpenDate": "2027-01-01",
+      "city": "Fremont",
+      "state": "CA",
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Environmental Science",
+        "Volunteer",
+        "Internship"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-04"
+    },
+    {
+      "id": "children-health-council-teen-volunteers",
+      "title": "Children's Health Council Teen Volunteers",
+      "org": "Children's Health Council",
+      "type": "Program",
+      "interests": [
+        "service",
+        "psychology"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "Teens ages 14 to 18 volunteer with a Palo Alto nonprofit that supports children and teens with learning differences and mental health needs. Volunteers serve across the Peninsula and South Bay.",
+      "link": "https://www.chconline.org/volunteer/",
+      "free": false,
+      "location": "Bay Area",
+      "minAge": 14,
+      "maxAge": 18,
+      "city": "Palo Alto",
+      "state": "CA",
+      "sourceName": "Official program website",
+      "tags": [
+        "Volunteer",
+        "Community Service",
+        "Health"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-04",
+      "sourceUrl": "https://www.chconline.org/volunteer/"
+    },
+    {
+      "id": "tag-ed-hs-summer-internship-program",
+      "title": "TAG-Ed High School Summer Internship",
+      "org": "TAG-Ed (Technology Association of Georgia Education Collaborative)",
+      "type": "Internship",
+      "interests": [
+        "cs",
+        "engineering"
+      ],
+      "minGrade": 10,
+      "maxGrade": 11,
+      "description": "Eight-week summer STEM internship in Georgia where interns are matched with host companies and work in pairs on a defined project. Paid and unpaid placements exist, and students must be 17 by June 1 and able to work in the U.S.",
+      "link": "https://tagedonline.org/high-school-summer-internship-program/",
+      "free": false,
+      "location": "In-Person",
+      "minAge": 17,
+      "state": "GA",
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Internship",
+        "STEM",
+        "Programming"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "sourceUrl": "https://tagedonline.org/high-school-summer-internship-program/"
+    },
+    {
+      "id": "genius-olympiad",
+      "title": "GENIUS Olympiad",
+      "org": "Terra Science and Education (hosted by St. John Fisher University)",
+      "type": "Competition",
+      "interests": [
+        "environmental",
+        "ai",
+        "engineering"
+      ],
+      "minGrade": 8,
+      "maxGrade": 12,
+      "description": "International project competition on environmental topics, with tracks including AI, robotics, and science. Applications open in December 2026, cost $75 per project, and finalists present at St. John Fisher University in Rochester, New York in June 2027.",
+      "link": "https://geniusolympiad.org/",
+      "free": false,
+      "location": "In-Person",
+      "deadline": "2027-03-01",
+      "deadlineConfirmed": true,
+      "city": "Rochester",
+      "state": "NY",
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Competition",
+        "Environmental Science",
+        "AI"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-04"
+    },
+    {
+      "id": "ucla-neuroscience-hs-scholars-program",
+      "title": "Neuroscience High School Scholars Program",
+      "org": "UCLA Mary S. Easton Center for Alzheimer's Research and Care",
+      "type": "Program",
+      "interests": [
+        "biology",
+        "psychology"
+      ],
+      "minGrade": 10,
+      "maxGrade": 11,
+      "description": "Free virtual summer neuroscience program from UCLA for rising juniors and seniors, with a focus on students at schools with limited access to neuroscience courses. Dates and the application deadline will be posted in December 2026.",
+      "link": "https://eastonad.ucla.edu/about/neuroscience-high-school-scholars-program",
+      "free": true,
+      "location": "Remote",
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Neuroscience",
+        "Research",
+        "Summer Program"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "sourceUrl": "https://eastonad.ucla.edu/about/neuroscience-high-school-scholars-program"
+    },
+    {
+      "id": "babson-summer-study",
+      "title": "Babson Summer Study",
+      "org": "Babson College",
+      "type": "Program",
+      "interests": [
+        "entrepreneurship"
+      ],
+      "minGrade": 10,
+      "maxGrade": 11,
+      "description": "Three-week program for rising juniors and seniors on building an entrepreneurial mindset, offered online or in person in 2027. There is a $100 application fee, waived for students applying for need-based aid.",
+      "link": "https://www.babson.edu/summer-at-babson/high-school-learners/summer-study/",
+      "free": false,
+      "location": "In-Person",
+      "minAge": 15,
+      "city": "Marlborough",
+      "state": "MA",
+      "financialAid": true,
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Entrepreneurship",
+        "Business",
+        "Summer Program"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "country": "United States",
+      "sourceUrl": "https://www.babson.edu/summer-at-babson/high-school-learners/summer-study/key-dates/",
+      "deadline": "2027-02-12",
+      "deadlineConfirmed": true
+    },
+    {
+      "id": "computer-history-museum-teen-volunteer-interns",
+      "title": "Computer History Museum Teen Volunteer Interns",
+      "org": "Computer History Museum",
+      "type": "Program",
+      "interests": [
+        "cs",
+        "service"
+      ],
+      "minGrade": 9,
+      "maxGrade": 12,
+      "description": "Students in grades 9 to 12 research technology history and run tours and hands-on activities for young visitors at the museum in Mountain View.",
+      "link": "https://computerhistory.org/internships/",
+      "free": false,
+      "location": "Bay Area",
+      "city": "Mountain View",
+      "state": "CA",
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Volunteer",
+        "Computer Science",
+        "Education"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "country": "United States",
+      "sourceUrl": "https://computerhistory.org/internships/"
+    },
+    {
+      "id": "ibm-skillsbuild-high-school",
+      "title": "IBM SkillsBuild for High School Students",
+      "org": "IBM",
+      "type": "Program",
+      "interests": [
+        "ai",
+        "cs"
+      ],
+      "minGrade": 8,
+      "maxGrade": 12,
+      "description": "Free self-paced online courses on AI literacy, ethics of generative AI, and other tech skills for students ages 13 to 18. Start any time.",
+      "link": "https://skillsbuild.org/students",
+      "free": true,
+      "location": "Remote",
+      "minAge": 13,
+      "sourceName": "Official program website",
+      "tags": [
+        "AI",
+        "Online Course",
+        "Computer Science"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "sourceUrl": "https://skillsbuild.org/frequently-asked-questions?pageAction=openChat"
+    },
+    {
+      "id": "elements-of-ai",
+      "title": "Elements of AI",
+      "org": "University of Helsinki and MinnaLearn",
+      "type": "Program",
+      "interests": [
+        "ai",
+        "cs"
+      ],
+      "minGrade": 8,
+      "maxGrade": 12,
+      "description": "Free online introduction to artificial intelligence that needs no coding experience. It covers what AI can and can't do and how to start building simple AI methods. Start any time.",
+      "link": "https://www.elementsofai.com/",
+      "free": true,
+      "location": "Remote",
+      "sourceName": "Official program website",
+      "tags": [
+        "AI",
+        "Online Course",
+        "Machine Learning"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "sourceUrl": "https://www.elementsofai.com/"
+    },
+    {
+      "id": "stanford-code-in-place",
+      "title": "Code in Place",
+      "org": "Stanford University",
+      "type": "Program",
+      "interests": [
+        "cs"
+      ],
+      "minGrade": 8,
+      "maxGrade": 12,
+      "description": "Free online course that teaches the first half of Stanford's intro Python class (CS106A) to beginners. Each group of 10 students gets a volunteer teacher. Sessions run in cohorts, so check the site for the next one.",
+      "link": "https://codeinplace.stanford.edu/",
+      "free": true,
+      "location": "Remote",
+      "sourceName": "Official program website",
+      "recurring": true,
+      "tags": [
+        "Programming",
+        "Online Course",
+        "Computer Science"
+      ],
+      "verified": true,
+      "lastChecked": "2026-10-12",
+      "sourceUrl": "https://codeinplace.stanford.edu/"
+    }
+  ]
+}
