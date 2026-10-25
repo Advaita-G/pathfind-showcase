@@ -71,4 +71,12 @@ describe("decodeFilters", () => {
       sortBy: "deadline",
     });
   });
+
+  test("drops repeated values so one toggle clears a filter", () => {
+    const decoded = decodeFilters("interests=cs,cs&types=Program,Program&locations=Remote,Remote");
+
+    expect(decoded.interests).toEqual(["cs"]);
+    expect(decoded.types).toEqual(["Program"]);
+    expect(decoded.locations).toEqual(["Remote"]);
+  });
 });

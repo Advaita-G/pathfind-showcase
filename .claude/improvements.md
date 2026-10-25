@@ -1,0 +1,1 @@
+- 2026-10-25 | bug | decodeFilters dedupes repeated interests/types/locations from shared URLs | vitest 716/716 pass, tsc+build+prerender ok; eval:assistant:check needs Deno+network (unavailable here, untouched)

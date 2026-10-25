@@ -43,17 +43,17 @@ export function decodeFilters(search: string): FilterState {
   const validInterests = new Set<string>(INTERESTS.map((i) => i.id));
   const interests = (params.get("interests") ?? "")
     .split(",")
-    .filter((value): value is Interest => validInterests.has(value));
+    .filter((value, index, all): value is Interest => validInterests.has(value) && all.indexOf(value) === index);
 
   const validTypes = new Set<string>(OPPORTUNITY_TYPES);
   const types = (params.get("types") ?? "")
     .split(",")
-    .filter((value): value is OpportunityType => validTypes.has(value));
+    .filter((value, index, all): value is OpportunityType => validTypes.has(value) && all.indexOf(value) === index);
 
   const validLocations = new Set<string>(LOCATIONS);
   const locations = (params.get("locations") ?? "")
     .split(",")
-    .filter((value): value is Location => validLocations.has(value));
+    .filter((value, index, all): value is Location => validLocations.has(value) && all.indexOf(value) === index);
 
   const sortRaw = params.get("sort");
   const sortBy = (SORTS as readonly string[]).includes(sortRaw ?? "")
